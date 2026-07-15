@@ -1,29 +1,32 @@
 const highlights = [
   {
-    title: 'Thiết kế rõ ràng',
-    description: 'Bố cục hiện đại, dễ đọc, ưu tiên trải nghiệm và chuyển động tinh tế.',
+    title: "Thiết kế rõ ràng",
+    description:
+      "Bố cục hiện đại, dễ đọc, ưu tiên trải nghiệm và chuyển động tinh tế.",
   },
   {
-    title: 'Responsive',
-    description: 'Tự động thích nghi từ mobile đến màn hình lớn mà không vỡ layout.',
+    title: "Responsive",
+    description:
+      "Tự động thích nghi từ mobile đến màn hình lớn mà không vỡ layout.",
   },
   {
-    title: 'Dễ mở rộng',
-    description: 'Cấu trúc component gọn, thuận tiện để thêm trang, form hoặc dashboard.',
+    title: "Dễ mở rộng",
+    description:
+      "Cấu trúc component gọn, thuận tiện để thêm trang, form hoặc dashboard.",
   },
-]
+];
 
 const stats = [
-  { value: '98%', label: 'Tốc độ hiển thị' },
-  { value: '24/7', label: 'Trải nghiệm mượt' },
-  { value: '3', label: 'Khối nội dung chính' },
-]
+  { value: "98%", label: "Tốc độ hiển thị" },
+  { value: "24/7", label: "Trải nghiệm mượt" },
+  { value: "3", label: "Khối nội dung chính" },
+];
 
 const steps = [
-  'Khởi tạo Vite + React để có tốc độ phát triển nhanh.',
-  'Tạo giao diện landing page hiện đại, dùng được ngay.',
-  'Tách style, component và dữ liệu để dễ chỉnh sửa.',
-]
+  "Khởi tạo Vite + React để có tốc độ phát triển nhanh.",
+  "Tạo giao diện landing page hiện đại, dùng được ngay.",
+  "Tách style, component và dữ liệu để dễ chỉnh sửa.",
+];
 
 function App() {
   return (
@@ -50,8 +53,9 @@ function App() {
             <span className="eyebrow">React + Vite + HTML + CSS + JS</span>
             <h1>Giao diện web hiện đại, gọn gàng và sẵn sàng mở rộng.</h1>
             <p className="lead">
-              Một landing page có phong cách đậm, hiệu ứng nhẹ và bố cục linh hoạt để
-              bạn dùng làm nền cho website giới thiệu, sản phẩm, portfolio hoặc dashboard.
+              Một landing page có phong cách đậm, hiệu ứng nhẹ và bố cục linh
+              hoạt để bạn dùng làm nền cho website giới thiệu, sản phẩm,
+              portfolio hoặc dashboard.
             </p>
 
             <div className="hero-actions">
@@ -102,8 +106,8 @@ function App() {
             <p className="section-label">Giới thiệu</p>
             <h2>Giao diện tập trung vào nội dung, không rối mắt.</h2>
             <p>
-              Tông màu tối ấm, điểm nhấn cam và các khối kính mờ giúp tổng thể trông
-              hiện đại mà vẫn dễ đọc trên mọi thiết bị.
+              Tông màu tối ấm, điểm nhấn cam và các khối kính mờ giúp tổng thể
+              trông hiện đại mà vẫn dễ đọc trên mọi thiết bị.
             </p>
           </article>
 
@@ -138,7 +142,7 @@ function App() {
         </section>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
